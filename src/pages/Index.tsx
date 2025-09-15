@@ -38,7 +38,9 @@ const Index = () => {
             </h2>
             <div className="flex items-center justify-center mb-6">
               <Icon name="MapPin" className="text-gold mr-2" size={20} />
-              <span className="text-gray-300">Crypto.com Arena, Los Angeles</span>
+              <span className="text-gray-300 animate-pulse bg-gradient-to-r from-gold via-white to-gold bg-clip-text text-transparent font-semibold">
+                🌟 LIVE • Crypto.com Arena, Los Angeles
+              </span>
             </div>
             <div className="text-sm text-gray-400 mb-6">
               Laser Light Show • David Gilmour • Shine on You Crazy Diamond
