@@ -24,24 +24,24 @@ const Index = () => {
             <span className="text-gold">BASKETBALL LEAGUE</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
-            Кубковые матчи сильнейших команд с разных континентов с призовым фондом $10 миллионов
+            Cup matches of the strongest teams from different continents with a $10 million prize fund
           </p>
           
           {/* Championship Match Announcement */}
           <div className="bg-black/50 backdrop-blur-sm border border-gold/30 rounded-2xl p-8 max-w-4xl mx-auto">
             <div className="flex items-center justify-center mb-4">
               <Icon name="Calendar" className="text-gold mr-3" size={28} />
-              <span className="text-gold font-semibold text-lg">24 сентября 2026</span>
+              <span className="text-gold font-semibold text-lg">September 24, 2026</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
               CHAMPIONSHIP MATCH
             </h2>
             <div className="flex items-center justify-center mb-6">
               <Icon name="MapPin" className="text-gold mr-2" size={20} />
-              <span className="text-gray-300">Crypto.com Arena, Лос-Анджелес</span>
+              <span className="text-gray-300">Crypto.com Arena, Los Angeles</span>
             </div>
             <div className="text-sm text-gray-400 mb-6">
-              Лазерное световое шоу • Дэвид Гилмор • Shine on You Crazy Diamond
+              Laser Light Show • David Gilmour • Shine on You Crazy Diamond
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const Index = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
-            КОМАНДЫ
+            TEAMS
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -72,16 +72,16 @@ const Index = () => {
                 </h3>
                 <Badge className="bg-gold text-championship-black mb-4">USA</Badge>
                 <p className="text-gray-300 mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  17-кратные чемпионы НБА. Легендарная команда с богатейшей историей побед.
+                  17-time NBA champions. Legendary team with the richest history of victories.
                 </p>
                 <div className="flex justify-center space-x-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-gold">17</div>
-                    <div className="text-sm text-gray-400">Чемпионств</div>
+                    <div className="text-sm text-gray-400">Championships</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-gold">32</div>
-                    <div className="text-sm text-gray-400">Финалов</div>
+                    <div className="text-sm text-gray-400">Finals</div>
                   </div>
                 </div>
               </CardContent>
@@ -104,16 +104,16 @@ const Index = () => {
                 </h3>
                 <Badge className="bg-championship-red text-white mb-4">SPAIN</Badge>
                 <p className="text-gray-700 mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  Королевский клуб с 36 титулами ACB. Европейские гиганты баскетбола.
+                  Royal club with 36 ACB titles. European basketball giants.
                 </p>
                 <div className="flex justify-center space-x-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-gold-dark">11</div>
-                    <div className="text-sm text-gray-600">Еврокубков</div>
+                    <div className="text-sm text-gray-600">Eurocups</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-gold-dark">36</div>
-                    <div className="text-sm text-gray-600">Титулов ACB</div>
+                    <div className="text-sm text-gray-600">ACB Titles</div>
                   </div>
                 </div>
               </CardContent>
@@ -126,10 +126,10 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-r from-gold/10 via-gold/5 to-gold/10">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
-            ПРИЗОВОЙ ФОНД
+            PRIZE FUND
           </h2>
           <p className="text-center text-gray-300 mb-16 text-lg">
-            Крупнейшие награды в истории международного баскетбола
+            Biggest awards in international basketball history
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -142,9 +142,9 @@ const Index = () => {
                 <div className="text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
                   $10M
                 </div>
-                <h3 className="text-2xl font-bold mb-4">1 МЕСТО</h3>
+                <h3 className="text-2xl font-bold mb-4">1ST PLACE</h3>
                 <p className="text-sm">
-                  Десять миллионов долларов США за звание чемпиона Intercontinental Basketball League
+                  Ten million US dollars for the Intercontinental Basketball League championship title
                 </p>
               </CardContent>
             </Card>
@@ -158,9 +158,9 @@ const Index = () => {
                 <div className="text-6xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
                   $3M
                 </div>
-                <h3 className="text-2xl font-bold mb-4">2 МЕСТО</h3>
+                <h3 className="text-2xl font-bold mb-4">2ND PLACE</h3>
                 <p className="text-sm">
-                  Три миллиона долларов США за серебряную медаль турнира
+                  Three million US dollars for the tournament silver medal
                 </p>
               </CardContent>
             </Card>
@@ -172,11 +172,11 @@ const Index = () => {
                   <Icon name="Users" size={64} className="mx-auto text-white" />
                 </div>
                 <div className="text-4xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
-                  ПРИЗЫ
+                  PRIZES
                 </div>
-                <h3 className="text-2xl font-bold mb-4">ФАНАТАМ</h3>
+                <h3 className="text-2xl font-bold mb-4">FOR FANS</h3>
                 <p className="text-sm">
-                  Специальные награды и подарки для зрителей и болельщиков команд
+                  Special awards and gifts for viewers and team supporters
                 </p>
               </CardContent>
             </Card>
@@ -193,18 +193,18 @@ const Index = () => {
                 <Icon name="Music" size={80} className="mx-auto text-gold" />
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
-                ЛАЗЕРНОЕ СВЕТОВОЕ ШОУ
+                LASER LIGHT SHOW
               </h2>
               <h3 className="text-2xl md:text-3xl font-bold text-gold mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
-                ДЭВИД ГИЛМОР
+                DAVID GILMOUR
               </h3>
               <p className="text-xl text-gray-300 mb-8" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Легендарный гитарист Pink Floyd исполнит
+                Legendary Pink Floyd guitarist will perform
                 <br />
                 <span className="text-gold font-semibold">«Shine on You Crazy Diamond»</span>
               </p>
               <Button className="bg-gold text-championship-black hover:bg-gold-light font-semibold px-8 py-3 text-lg">
-                Купить билеты
+                Buy Tickets
                 <Icon name="ExternalLink" className="ml-2" size={20} />
               </Button>
             </CardContent>
@@ -220,7 +220,7 @@ const Index = () => {
           </h3>
           <p className="text-gray-400 mb-4">EIN: 36-5149730</p>
           <p className="text-gray-500 text-sm">
-            © 2026 Intercontinental Basketball League. Все права защищены.
+            © 2026 Intercontinental Basketball League. All rights reserved.
           </p>
         </div>
       </footer>
